@@ -1,0 +1,6 @@
+header {
+    background: url(./images/pic_1.jpg) 0 50%;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
