@@ -21,6 +21,6 @@ resources:
 
 ## Screenshots
 
-**Home Page**
-
+**All web pages and views**
+![View](https://github.com/YassineChayrrou/holberton-smiling-school/blob/master/screenshots/website-view.jpg)
 
