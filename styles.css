@@ -13,6 +13,10 @@ header {
     font-size: 4.5rem;
 }
 
+.font-size-sm {
+    font-size: 1rem;
+}
+
 .navbar {
     display: none;
 }
@@ -47,6 +51,7 @@ p span {
 @media only screen and (max-width: 768px) {
     header {
         background-position: center;
+        height: 130vh;
     }
 
 }
@@ -54,6 +59,7 @@ p span {
 @media only screen and (max-width: 576px) {
     header {
         background-position: 52% 0;
+        height: 150vh;
     }
     .navbar {
         display: unset;
@@ -67,4 +73,11 @@ p span {
         font-size: 4rem;
     }
 
+}
+
+@media only screen and (max-width: 320px) {
+    header {
+        height: 210vh;
+        background-position: 35% 0;
+    }
 }
