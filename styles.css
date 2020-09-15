@@ -4,3 +4,55 @@ header {
     width: 100%;
     background-size: cover;
 }
+
+.font-sanspro {
+    font-family: Source sans pro;
+}
+
+.font-size-xl {
+    font-size: 4.5rem;
+}
+
+.navbar {
+    display: none;
+}
+
+.nav {
+    display: unset;
+}
+
+.btn {
+    width: 162px;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 30px;
+    background-color: #C271FF;
+    filter: drop-shadow(0px 2px 20px rgba(0, 0, 0, 0.5));
+}
+
+/* responsive css */
+
+@media only screen and (max-width: 768px) {
+    header {
+        background-position: center;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    header {
+        background-position: 52% 0;
+    }
+    .navbar {
+        display: unset;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .font-size-xl {
+        font-size: 4rem;
+    }
+
+}
